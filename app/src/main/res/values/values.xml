@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_margin_hor">160dp</dimen>
+    <dimen name="btn_margin_vert">20dp</dimen>
+    <dimen name="btn_size_hor">290dp</dimen>
+    <dimen name="btn_size_vert">60dp</dimen>
+    <dimen name="corner_rad_tv">10dp</dimen>
+    <dimen name="corner_rad_header">30dp</dimen>
+    <dimen name="font_header">40sp</dimen>
+    <dimen name="font_question">20sp</dimen>
+    <dimen name="size_num_icon">90dp</dimen>
+    <dimen name="border_num_icon">3dip</dimen>
+</resources>

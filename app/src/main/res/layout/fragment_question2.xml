@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentQuestion2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/id_btn_2_c"
+            android:layout_width="@dimen/btn_size_hor"
+            android:layout_height="@dimen/btn_size_vert"
+            android:layout_marginTop="@dimen/btn_margin_vert"
+            android:text="@string/q2_c"
+            android:backgroundTint="@color/green_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_btn_2_b" />
+
+        <Button
+            android:id="@+id/id_btn_2_b"
+            android:layout_width="@dimen/btn_size_hor"
+            android:layout_height="@dimen/btn_size_vert"
+            android:layout_marginTop="@dimen/btn_margin_vert"
+            android:layout_marginBottom="@dimen/btn_margin_vert"
+            android:text="@string/q2_b"
+            android:backgroundTint="@color/green_dark"
+            app:layout_constraintBottom_toTopOf="@+id/id_btn_2_c"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_btn_2_a" />
+
+        <Button
+            android:id="@+id/id_btn_2_a"
+            android:layout_width="@dimen/btn_size_hor"
+            android:layout_height="@dimen/btn_size_vert"
+            android:layout_marginTop="@dimen/btn_margin_vert"
+            android:text="@string/q2_a"
+            android:backgroundTint="@color/green_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_tv_q2" />
+
+        <TextView
+            android:id="@+id/id_tv_q2"
+            android:layout_width="281dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="@dimen/btn_margin_vert"
+            android:background="@drawable/border_green"
+            android:gravity="center"
+            android:text="@string/question2"
+            android:textColor="@color/burgund"
+            android:textSize="@dimen/font_question"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_img_q2" />
+
+        <ImageView
+            android:id="@+id/id_img_next2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="331dp"
+            android:layout_marginLeft="331dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/next1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_btn_2_c"
+            app:layout_constraintVertical_bias="0.191" />
+
+        <ImageView
+            android:id="@+id/id_img_q2"
+            android:layout_width="278dp"
+            android:layout_height="177dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/beastie_boys" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/size_num_icon"
+            android:layout_height="@dimen/size_num_icon"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/page_number"
+            android:gravity="center"
+            android:text="@string/val_page_2"
+            android:textColor="@color/burgund"
+            android:textSize="@dimen/font_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

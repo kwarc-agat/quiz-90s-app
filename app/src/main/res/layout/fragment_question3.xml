@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentQuestion3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/id_hubabuba2"
+            android:layout_width="147dp"
+            android:layout_height="123dp"
+            android:layout_marginEnd="184dp"
+            android:layout_marginRight="184dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/hubba_bubba"
+            app:layout_constraintBottom_toTopOf="@+id/id_tv_q3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/id_btn_3_c"
+            android:layout_width="@dimen/btn_size_hor"
+            android:layout_height="@dimen/btn_size_vert"
+            android:layout_marginTop="@dimen/btn_margin_vert"
+            android:text="@string/q3_c"
+            android:backgroundTint="@color/green_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_btn_3_b" />
+
+        <Button
+            android:id="@+id/id_btn_3_b"
+            android:layout_width="@dimen/btn_size_hor"
+            android:layout_height="@dimen/btn_size_vert"
+            android:layout_marginTop="@dimen/btn_margin_vert"
+            android:layout_marginBottom="@dimen/btn_margin_vert"
+            android:text="@string/q3_b"
+            android:backgroundTint="@color/green_dark"
+            app:layout_constraintBottom_toTopOf="@+id/id_btn_3_c"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_btn_3_a" />
+
+        <Button
+            android:id="@+id/id_btn_3_a"
+            android:layout_width="@dimen/btn_size_hor"
+            android:layout_height="@dimen/btn_size_vert"
+            android:layout_marginTop="@dimen/btn_margin_vert"
+            android:text="@string/q3_a"
+            android:backgroundTint="@color/green_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_tv_q3" />
+
+        <TextView
+            android:id="@+id/id_tv_q3"
+            android:layout_width="284dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="124dp"
+            android:background="@drawable/border_green"
+            android:gravity="center"
+            android:scrollHorizontally="false"
+            android:text="@string/question3"
+            android:textColor="@color/burgund"
+            android:textSize="@dimen/font_question"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/id_img_next3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="331dp"
+            android:layout_marginLeft="331dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/next1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_btn_3_c"
+            app:layout_constraintVertical_bias="0.519" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="@dimen/size_num_icon"
+            android:layout_height="@dimen/size_num_icon"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/page_number"
+            android:gravity="center"
+            android:text="@string/val_page_3"
+            android:textColor="@color/burgund"
+            android:textSize="@dimen/font_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/id_hubabuba1"
+            android:layout_width="147dp"
+            android:layout_height="123dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/hubba_bubba"
+            app:layout_constraintBottom_toTopOf="@+id/id_tv_q3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/id_hubabuba"
+            android:layout_width="147dp"
+            android:layout_height="123dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginRight="92dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/hubba_bubba"
+            app:layout_constraintBottom_toTopOf="@+id/id_tv_q3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

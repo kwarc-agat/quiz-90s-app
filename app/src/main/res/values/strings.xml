@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="val_btn_play">Play</string>
+    <string name="val_btn_retry">Try again</string>
+    <string name="val_btn_quit">Quit</string>
+    <string name="val_page_1">1</string>
+    <string name="val_page_2">2</string>
+    <string name="val_page_3">3</string>
+    <string name="val_page_4">4</string>
+    <string name="val_page_5">5</string>
+    <string name="question1">Who sings this song?</string>
+    <string name="question2">Whose album is it?</string>
+    <string name="question3">How long was Hubba Bubba bubble gum?</string>
+    <string name="question4">Who is this guy?</string>
+    <string name="question5">Which brand comes from 90s?</string>
+    <string name="q1_a">Jennifer Lopez</string>
+    <string name="q1_b">Madonna</string>
+    <string name="q1_c">Britney Spears</string>
+    <string name="q2_a">Smashing pumpkins</string>
+    <string name="q2_b">Beastie boys</string>
+    <string name="q2_c">Foo Fighters</string>
+    <string name="q3_a">1.8 m</string>
+    <string name="q3_b">0.8 m</string>
+    <string name="q3_c">1 m</string>
+    <string name="q4_a">Dale from Twin Peaks</string>
+    <string name="q4_b">Joey from Friends</string>
+    <string name="q4_c">Steve from The Office</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
