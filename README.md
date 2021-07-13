@@ -16,7 +16,7 @@ Simple multimedia quiz app in theme of 90s pop culture. Loosely based on UX/UI o
 
 ## Demo
 
-<i> in preparation </i>
+![](https://github.com/kwarc-agat/quiz-90s-app/blob/master/demo_images/img_2.jpg)  |  ![](https://github.com/kwarc-agat/quiz-90s-app/blob/master/demo_images/img_3.jpg)
 
 ## Getting started
 
